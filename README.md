@@ -3,8 +3,8 @@ Feature Extraction 與 Model Training 的部份主要參考自 [Feature engineer
 
 ## Feature Extraction
 
-### Jupyter Notebook:
-- [Feature Extraction]()
+### Jupyter Notebook
+- [Feature Extraction](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Feature%20Extraction.ipynb)
 
 ### Methods
 - Lag feature 的部份從前 1, 2, 3, 6, 12 月調整為前 1-6 個月，因此最終多保留了 date_block_num 6-11 的訓練資料沒有被捨棄。
@@ -13,11 +13,11 @@ Feature Extraction 與 Model Training 的部份主要參考自 [Feature engineer
 
 ## Model Training
 
-### Jupyter Notebook:
-- [All Months Validation & All Features]()
-- [All Months Validation & Selected Features]()
-- [Last Month Validation & All Features]()
-- [Last Month Validation & Selected Features]()
+### Jupyter Notebook
+- [All Months Validation & All Features](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Training_val-all_all.ipynb)
+- [All Months Validation & Selected Features](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Training_val-all_select.ipynb)
+- [Last Month Validation & All Features](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Training_val1_all.ipynb)
+- [Last Month Validation & Selected Features](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Training_val1_select.ipynb)
 
 ### Methods
 - 使用 XGBoost Regressor 作為主要的訓練模型
@@ -32,8 +32,8 @@ Feature Extraction 與 Model Training 的部份主要參考自 [Feature engineer
   
 ## Ensemble
 
-### Jupyter Notebook:
-- [Ensemble]()
+### Jupyter Notebook
+- [Ensemble](https://nbviewer.jupyter.org/github/jason53415/Predict-Future-Sales/blob/master/Ensemble.ipynb)
 
 ### Methods
 - 依據各個 model 的表現，將所有 model 的預測結果依一定的權重相互加總。
